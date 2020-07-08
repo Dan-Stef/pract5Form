@@ -27,7 +27,7 @@ namespace pract5Form
             {
                 if (x <= -2) throw new Exception();
                 else if (x >= 2) throw new Exception();
-                else return Math.Log10(4 - x * x);
+                else return Math.Log(4 - x * x);
             }
             catch
             {
